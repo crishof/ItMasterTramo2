@@ -1,0 +1,37 @@
+#contenedor{
+    margin: 0 auto;
+    width: 600px;
+}
+
+#contenedor > div{
+    float: left;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    color: rgb(239, 249, 249);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#caja1{
+    background-color: darkblue;
+}
+
+#caja2{
+    background-color:darkred;
+}
+
+#caja3{
+    background-color: darkgreen;
+}
+
+#caja4{
+    background-color: darkorange;
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 14px;
+}

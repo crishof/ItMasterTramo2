@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Inter:wght@500&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contenedor h1{
+    font-size: 2.4rem;
+}
+
+#productos{
+    display: flex;
+    justify-content: center;
+}
+
+.producto{
+    width: 300px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.producto img{
+    width: 80%;
+    margin: 10px auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flex > *{
+    margin: 5px;
+}
+
+.btn{
+    padding: 2px 8px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    border: 1px solid silver;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.btn.agregar{
+    background-color: darkblue;
+    color: white;
+}
+
+.btn.quitar{
+    background-color: darkred;
+    color: white;
+}

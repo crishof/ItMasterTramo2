@@ -1,0 +1,20 @@
+#menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 70%;
+    margin:0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu li a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(49, 4, 34);
+    color: white;
+    padding: 5px 20px;    
+}
+
+#menu li a:hover{
+    background-color: rgb(126, 8, 144);
+}

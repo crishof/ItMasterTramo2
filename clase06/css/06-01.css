@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+}
+
+#contenedor{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(135deg, #a9e4f7 0%,#0fb4e7 100%); 
+    /* 
+        Ajustamos el contenedor a (como mínimo) el alto de la ventana visible 
+    */    
+    min-height: 100vh;
+    
+}
+
+#contenedor h1{
+    margin-top: 0;
+    font-size: 3rem;
+    /* 
+        Sombra al texto
+        Parámetros:
+        X Y Blur color
+        Puedo separar niveles de sombra con ,        
+    */
+    text-shadow: -1px 1px 2px rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+}
+
+#productos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* 
+        En este contexto centra verticalmente las cajas dentro de productos
+    */
+    align-items: center;
+    /* 
+        Alto mínimo para la caja que tiene los productos
+    */
+    min-height:800px;
+}
+
+.producto{
+    width: 30%;
+    border: 1px solid rgb(252, 252, 252);
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    /* 
+        Sombra a la caja
+        Parámetros:
+        X Y Blur color
+        Puedo separar niveles de sombra con ,
+        inset es sombra interior (opcional)
+    */       
+    box-shadow: 0 0 10px rgb(61, 58, 58,0.3) inset; 
+}
+
+.producto img{
+    width: 45%;
+    /* 
+        Redondeamos la imagen
+    */
+    border-radius: 50%;
+    /* 
+        El tiempo de transición en segundos (profunidizaremos el tema más adelante)
+    */
+    transition: 0.4s;
+
+}
+
+/* 
+ Cuando pasamos el mouse sobre la imagen
+*/
+.producto img:hover{
+    width: 50%;
+    /* 
+        Sombra a la caja
+        Parámetros:
+        X Y Blur color
+        Puedo separar niveles de sombra con ,
+    */       
+    box-shadow: 10px 10px 20px rgb(61, 58, 58,0.7);    
+}
+

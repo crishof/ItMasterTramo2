@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+
+#caja{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 320px;
+}
+
+#caja img{
+    width: 100%;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+/* 
+    El cartel está oculto
+*/
+#aviso{
+    display: none;
+}
+
+/* 
+    A partir de esta resolución e inferiores se muestra el cartel
+*/
+
+@media (max-width: 320px){
+    #aviso{
+        display: block;
+        background: red;
+        color: white;
+    }
+}

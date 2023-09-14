@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(14, 6, 71);
+}
+#contenedor{
+    width: 60%;
+    /* 
+        Para centrar
+    */
+    margin: 0 auto;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;    
+}
+
+#contenedor p{
+    text-align: left;
+}
+
+#contenedor img{
+    border-radius: 15px;
+}

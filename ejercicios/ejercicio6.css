@@ -1,0 +1,42 @@
+body{
+    margin:0;      
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contenedor{
+    width: 100%;    
+}
+
+#contenedor > *{
+    float: left;
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+main{
+    float: left;
+    width: 100%;
+    padding: 0 20%;
+    box-sizing: border-box;
+}
+
+h1{
+    color: white;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(116, 116, 116);
+}
+footer{
+    background-color: navy;
+    width: 100%;
+    text-align: center;
+}
+footer small{
+    color: white;
+}

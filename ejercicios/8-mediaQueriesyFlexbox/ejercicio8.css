@@ -1,0 +1,21 @@
+#contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 320px;
+}
+
+#contenedor > div{
+    background-color: blue;
+    width: 150px;
+    height: 150px;    
+}
+
+@media (max-width:800px){
+    #contenedor{
+        flex-wrap: wrap;
+    }
+    #contenedor > div{
+        width: 50%;
+        margin: 10px 25%;
+    }
+}

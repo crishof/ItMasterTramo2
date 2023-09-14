@@ -1,0 +1,9 @@
+body{
+    background-color: lemonchiffon;
+}
+
+#contenedor{
+    width: 70%;
+    margin: 0 15%;
+    text-align: center;
+}

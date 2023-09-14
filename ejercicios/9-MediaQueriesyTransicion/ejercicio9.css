@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+#contenedor{
+    width: 100%
+}
+
+header,main,#publicidad{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+header{
+    background-color: navy;
+    color: white;
+}
+
+#publicidad{
+    background-color: darkslateblue;
+}
+
+#publicidad a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    transition: 1s;
+}
+
+#publicidad a:hover{
+    color: orange;
+}
+
+main{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+main section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article{
+    width: 45%;
+}
+
+article p{
+    text-align: left;
+}
+
+@media (max-width:1024px){
+    body{
+        font-size: 1rem;
+    }
+    #publicidad{
+        display: none;
+    }
+    main section{
+        flex-wrap: wrap;
+    }
+    article{
+        width: 90%;
+    }
+}

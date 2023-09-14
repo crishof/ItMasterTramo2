@@ -1,0 +1,25 @@
+Etiqueta <span>
+https://developer.mozilla.org/es/docs/Web/HTML/Element/span
+
+Listas <ol> y <ul>
+https://developer.mozilla.org/es/docs/Web/HTML/Element/ol
+https://developer.mozilla.org/es/docs/Web/HTML/Element/ul
+https://developer.mozilla.org/es/docs/Web/HTML/Element/li
+
+div
+https://developer.mozilla.org/es/docs/Web/HTML/Element/div
+
+Ancho en CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/width
+
+Imagen de fondo en CSS
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-image
+
+Margen en CSS
+https://developer.mozilla.org/es/docs/Web/CSS/margin
+
+Hover en CSS
+https://developer.mozilla.org/es/docs/Web/CSS/:hover
+
+Recursos de imágenes (ver derecho de uso)
+https://www.iconfinder.com/

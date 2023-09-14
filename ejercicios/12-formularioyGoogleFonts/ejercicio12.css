@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+form{
+    width: 500px;
+    margin: 0 auto;    
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+form > *{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+}
+
+input,textarea{
+    margin-bottom: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input,label{
+    font-size: 1.3rem;
+    text-align: center;
+    
+}
+
+textarea{
+    resize: none;
+    height: 250px;
+    font-size: 1.3rem;
+}
+
+input[type="submit"]{
+    background-color: darkblue;
+    color: white;
+}

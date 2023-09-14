@@ -1,0 +1,29 @@
+/* 
+    Para este ejemplo
+    Reglas generales
+    En este caso las veremos en "móviles"
+*/
+
+body{
+    background-color: lightcyan;
+    /* 
+        Multiplicamos por 2 el font-size de todos los textos
+    */    
+    font-size: 1.2rem;
+    /*    
+        ara este ejemplo 
+        La regla del color, al no estar en el media, se mantiene en todas las pantallas
+    */
+    color: brown;
+}
+
+/* 
+    En resoluciones de 700px y superiores en ancho cambia con estas reglas
+*/
+
+@media (min-width: 700px){
+    body{
+        background-color: lightpink;
+        font-size: 2rem;
+    }
+}

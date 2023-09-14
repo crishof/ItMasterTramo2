@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-size: 2rem;
+}
+
+#iconos{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: navy;
+}
+
+#iconos ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;  
+    padding: 0 25%;    
+
+}
+
+#iconos ul li a{
+    text-decoration: none;
+    color: white;
+}

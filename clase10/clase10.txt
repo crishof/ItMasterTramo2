@@ -1,0 +1,8 @@
+Google fonts
+https://fonts.google.com/
+
+Bootstrap
+https://getbootstrap.com/
+https://getbootstrap.com/docs/5.3/getting-started/download/
+https://damiandeluca.com.ar/que-es-bootstrap
+https://damiandeluca.com.ar/ventajas-de-usar-bootstrap-en-la-creacion-de-sitios-web

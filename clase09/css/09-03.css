@@ -1,0 +1,42 @@
+#contenedor{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#contenedor form > *{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+label{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+textarea{
+    /* 
+        Deshabilitamos que el usuario pueda cambiar el tamaño del textarea
+    */
+    resize: none;
+    height: 40px;
+    transition: 1s;
+}
+
+textarea:focus{
+    height: 220px;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;    
+}
+

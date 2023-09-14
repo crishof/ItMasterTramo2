@@ -1,0 +1,18 @@
+Formularios
+https://developer.mozilla.org/es/docs/Learn/Forms/How_to_structure_a_web_form
+
+Input y sus types
+https://developer.mozilla.org/es/docs/Web/HTML/Element/input
+https://damiandeluca.com.ar/formularios-en-html5-los-input
+
+Formularios en HTML5
+https://developer.mozilla.org/es/docs/Learn/Forms
+
+Placeholder
+https://damiandeluca.com.ar/uso-del-atributo-placeholder-en-formularios-html5
+
+Textarea
+https://developer.mozilla.org/es/docs/Web/HTML/Element/textarea
+
+Select
+https://developer.mozilla.org/es/docs/Web/HTML/Element/select
